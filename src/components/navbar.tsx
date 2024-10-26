@@ -28,13 +28,13 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-50">
+      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="flex gap-3 items-center">
-            <p className="text-black dark:text-white text-xl font-semibold [family-name:var(--font-geist-sans)]">
+            <p className="text-black dark:text-white text-xl font-semibold">
               Faiz
             </p>
-            <p className="text-gray-400 dark:text-gray-500 text-xl font-normal [family-name:var(--font-geist-sans)]">
+            <p className="text-gray-400 dark:text-gray-500 text-xl font-normal">
               Software Engineer
             </p>
           </Link>
