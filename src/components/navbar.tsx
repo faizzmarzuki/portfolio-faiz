@@ -9,7 +9,7 @@ import { Sun, Moon } from "lucide-react";
 const menuItems = [
   { name: "Home", href: "/" },
   { name: "Work", href: "/work" },
-  { name: "About", href: "/about" },
+  { name: "About", href: "/about-me" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -53,11 +53,11 @@ export default function Navbar() {
                 )}
               </button>
             )}
-            <button
+            {/* <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-black dark:text-white text-xl focus:outline-none">
               {isOpen ? "Close" : "Menu"}
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

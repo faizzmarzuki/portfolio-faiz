@@ -1,4 +1,4 @@
-import { LinkedInLogoIcon, TwitterLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons"
+import { LinkedInLogoIcon, TwitterLogoIcon, GitHubLogoIcon, CalendarIcon } from "@radix-ui/react-icons"
 
 export const LinkedIn = () => {
     return <LinkedInLogoIcon/>
@@ -9,5 +9,9 @@ export const Twitter = () => {
 }
 
 export const Github = () => {
-    return <GitHubLogoIcon />;
+    return <GitHubLogoIcon />
+}
+
+export const Calendar = () => {
+    return <CalendarIcon/>
 }
