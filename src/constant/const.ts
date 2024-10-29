@@ -108,33 +108,6 @@ export const images = [
   },
 ];
 
-export const music = [
-  {
-    albumUrl:
-      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F6725f1000db2e875f4ce966f4144d41a.1000x1000x1.png",
-    albumName: "Charm",
-    songName: "Juna",
-    artistName: "Clairo",
-    source: "",
-  },
-  {
-    albumUrl:
-      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F08dcb11c5d99d150b17b92a5e0f1f8b4.1000x1000x1.png",
-    albumName: "Immunity",
-    songName: "Bags",
-    artistName: "Clairo",
-    source: "",
-  },
-  {
-    albumUrl:
-      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F120177bb4156739b80a1c9520505d09d.1000x1000x1.jpg",
-    albumName: "Is This Love To You (Single)",
-    songName: "Is This Love To You",
-    artistName: "Bryant Barnes",
-    source: "",
-  },
-];
-
 export const favoriteTracks = [
   {
     id: 1,
@@ -152,7 +125,7 @@ export const favoriteTracks = [
     album: "Urn (Single)",
     coverArt:
       "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F13edb243094b0e77d9164cf696d1c0b2.1000x1000x1.jpg",
-    audioSrc: "https://example.com/imagine.mp3",
+    audioSrc: "https://open.spotify.com/track/0SsOMCjOCpit4EfFpwjcFW",
   },
   {
     id: 3,
@@ -161,7 +134,7 @@ export const favoriteTracks = [
     album: "Is This Love To You (Single)",
     coverArt:
       "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F120177bb4156739b80a1c9520505d09d.1000x1000x1.jpg",
-    audioSrc: "https://example.com/billie-jean.mp3",
+    audioSrc: "https://open.spotify.com/track/2ncHgB3JjvnY4YcoMo8tGl",
   },
   {
     id: 4,
