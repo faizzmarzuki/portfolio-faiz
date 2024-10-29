@@ -57,7 +57,7 @@ export const experience = [
     duration: "Feb 2024 - Present",
   },
   {
-    src: "https://d1yzeyilpfx2yv.cloudfront.net/v5nmqu%2Fpreview%2F61900367%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1729965951&Signature=EnI0htv97K~-YBSYswSj1CSPVLfZbzfHtHUOU~tdn35f96nB4HsKU-fTwRsDazLk3DtBdRjiLbm3BZ4RLQiAubEL93W2Iz8rZRicSkITHVbyugSFDTzk3bgF-~mpILPyUVVxvirp8SV~7d6TuHCr88O1eWeEapTtc2LFRa1jgMz9QNI54j9Gkh~AWdlZBaV6J~T~GWKeTiat5em9D6fcU4dOMQx92GHp-8X3OdIzNhSE6-dAlBQpO7eSQyCjl5t-KXMCX3ARX1woa5NBMH~uYk~m2wgcV2qjdlm5gBr1P7G~dMS49Cqk1oo4aiq1jNIY2TqKpOQSx5GXmAubiolsyQ__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ",
+    src: "https://www.faiz-marzuki.com/favicon.ico",
     fallback: "AZ",
     companyName: "Aztech IT Solutions",
     position: "Founder / Software Developer",
