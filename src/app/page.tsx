@@ -1,11 +1,9 @@
 "use client";
 
 import { CompanyCard } from "@/components/company-card";
-import Flipcard from "@/components/flip-image";
 import ImageScrollWithGradient from "@/components/image-scroll";
-import { ProjectCard } from "@/components/project-card";
+import FavoriteMusicSection from "@/components/music-scroll";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { experience, images } from "@/constant/const";
 import { Github, LinkedIn, Twitter } from "@/constant/icons";
 
@@ -72,8 +70,8 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-black dark:text-white">
             Music
           </h1>
-          <div className="flex flex-col gap-5 items-center">
-            I'm still cooking on this sections🍳
+          <div className="flex gap-5 items-center">
+            <FavoriteMusicSection />
           </div>
         </div>
         <div className="flex flex-col gap-10 w-full md:container md:mx-auto md:px-4 md:py-4 md:justify-between">

@@ -44,8 +44,9 @@ export default function ImageScrollWithGradient({
   return (
     <div className="relative w-full">
       <div
-        className="overflow-x-auto custom-scrollbar"
+        className="overflow-x-auto scrollbar-hide"
         ref={scrollContainerRef}
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         <div className="flex gap-5 items-center pb-4">
           {images.map((item, index) => (

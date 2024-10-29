@@ -107,3 +107,87 @@ export const images = [
     imageDate: new Date("2023-10-10"),
   },
 ];
+
+export const music = [
+  {
+    albumUrl:
+      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F6725f1000db2e875f4ce966f4144d41a.1000x1000x1.png",
+    albumName: "Charm",
+    songName: "Juna",
+    artistName: "Clairo",
+    source: "",
+  },
+  {
+    albumUrl:
+      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F08dcb11c5d99d150b17b92a5e0f1f8b4.1000x1000x1.png",
+    albumName: "Immunity",
+    songName: "Bags",
+    artistName: "Clairo",
+    source: "",
+  },
+  {
+    albumUrl:
+      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F120177bb4156739b80a1c9520505d09d.1000x1000x1.jpg",
+    albumName: "Is This Love To You (Single)",
+    songName: "Is This Love To You",
+    artistName: "Bryant Barnes",
+    source: "",
+  },
+];
+
+export const favoriteTracks = [
+  {
+    id: 1,
+    title: "Juna",
+    artist: "Clairo",
+    album: "Charm",
+    coverArt:
+      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F6725f1000db2e875f4ce966f4144d41a.1000x1000x1.png",
+    audioSrc: "https://open.spotify.com/track/2mWfVxEo4xZYDaz0v7hYrN",
+  },
+  {
+    id: 2,
+    title: "Urn",
+    artist: "Crying City",
+    album: "Urn (Single)",
+    coverArt:
+      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F13edb243094b0e77d9164cf696d1c0b2.1000x1000x1.jpg",
+    audioSrc: "https://example.com/imagine.mp3",
+  },
+  {
+    id: 3,
+    title: "Is This Love To You",
+    artist: "Bryant Barnes",
+    album: "Is This Love To You (Single)",
+    coverArt:
+      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F120177bb4156739b80a1c9520505d09d.1000x1000x1.jpg",
+    audioSrc: "https://example.com/billie-jean.mp3",
+  },
+  {
+    id: 4,
+    title: "dance partner",
+    artist: "Asumuh",
+    album: "dance partner (Single)",
+    coverArt:
+      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2Fde811ba9a83e0be37d2d379b1ef9619e.997x1000x1.png",
+    audioSrc: "https://open.spotify.com/track/6pERLwGg6WN0MvQ7YujWsG",
+  },
+  {
+    id: 5,
+    title: "Bags",
+    artist: "Clairo",
+    album: "Immunity",
+    coverArt:
+      "https://t2.genius.com/unsafe/1534x0/https%3A%2F%2Fimages.genius.com%2F08dcb11c5d99d150b17b92a5e0f1f8b4.1000x1000x1.png",
+    audioSrc: "https://open.spotify.com/track/6UFivO2zqqPFPoQYsEMuCc",
+  },
+  {
+    id: 6,
+    title: "Petals on the Moon",
+    artist: "Wasia Project",
+    album: "Petals on the Moon (Single)",
+    coverArt:
+      "https://t2.genius.com/unsafe/504x504/https%3A%2F%2Fimages.genius.com%2F21763812b19756d6cc0449e1a6923e25.1000x1000x1.jpg",
+    audioSrc: "https://open.spotify.com/track/3BmaFHt6q91CmMrA7fLLRC",
+  },
+];
