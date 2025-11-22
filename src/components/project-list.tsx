@@ -19,49 +19,28 @@ type Project = {
   title: string;
   description: string;
   thumbnail: string;
+  company: string;
   tags: string[];
 };
 
 const projects: Project[] = [
   {
-    id: "project-1",
-    title: "E-commerce Platform",
+    id: "1",
+    title: "MyBPJS",
     description:
       "A fully responsive e-commerce platform built with Next.js and Tailwind CSS.",
     thumbnail: "/placeholder.svg?height=400&width=300",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+    company: "WorkerzDirect Sdn. Bhd.",
+    tags: ["Laravel", "Livewire", "Tailwind CSS", "Sqlite"],
   },
   {
-    id: "project-2",
-    title: "Task Management App",
+    id: "2",
+    title: "Boleh Marketing",
     description:
       "A collaborative task management application with real-time updates.",
     thumbnail: "/placeholder.svg?height=400&width=300",
-    tags: ["React", "Node.js", "Socket.io"],
-  },
-  {
-    id: "project-3",
-    title: "AI-powered Chatbot",
-    description:
-      "An intelligent chatbot leveraging natural language processing for customer support.",
-    thumbnail: "/placeholder.svg?height=400&width=300",
-    tags: ["Python", "TensorFlow", "NLP"],
-  },
-  {
-    id: "project-4",
-    title: "Fitness Tracking App",
-    description:
-      "A mobile app for tracking workouts and nutrition with personalized recommendations.",
-    thumbnail: "/placeholder.svg?height=400&width=300",
-    tags: ["React Native", "Firebase", "Machine Learning"],
-  },
-  {
-    id: "project-5",
-    title: "Smart Home Dashboard",
-    description:
-      "A centralized dashboard for controlling and monitoring smart home devices.",
-    thumbnail: "/placeholder.svg?height=400&width=300",
-    tags: ["IoT", "React", "Node.js"],
+    company: "WorkerzDirect Sdn. Bhd.",
+    tags: ["Laravel", "Livewire", "Tailwind CSS", "Sqlite"],
   },
 ];
 
@@ -101,11 +80,6 @@ export default function ProjectList() {
                     </div>
                   </CardContent>
                 </div>
-                <CardFooter>
-                  <Link href={`/projects/${project.id}`}>
-                    <Button>Learn More</Button>
-                  </Link>
-                </CardFooter>
               </div>
               <div className="md:w-1/3 relative">
                 <Image
