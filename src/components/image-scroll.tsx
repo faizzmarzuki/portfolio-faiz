@@ -61,14 +61,14 @@ export default function ImageScrollWithGradient({
 
       {/* Right gradient overlay */}
       <div
-        className={`absolute top-0 right-0 w-24 h-full bg-gradient-to-l from-background to-transparent pointer-events-none transition-opacity duration-300 ${
+        className={`absolute top-0 right-0 w-10 h-full bg-gradient-to-l from-background to-transparent pointer-events-none transition-opacity duration-300 ${
           isAtEnd ? "opacity-0" : "opacity-100"
         }`}
       />
 
       {/* Left gradient overlay */}
       <div
-        className={`absolute top-0 left-0 w-24 h-full bg-gradient-to-r from-background to-transparent pointer-events-none transition-opacity duration-300 ${
+        className={`absolute top-0 left-0 w-10 h-full bg-gradient-to-r from-background to-transparent pointer-events-none transition-opacity duration-300 ${
           isAtStart ? "opacity-0" : "opacity-100"
         }`}
       />
